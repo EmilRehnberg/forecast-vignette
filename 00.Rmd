@@ -1,0 +1,35 @@
+
+---
+title: "forecast package notes"
+author: "Emil Rehnberg"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+---
+
+```{r echo = FALSE, eval = FALSE}
+rmarkdown::render("00.Rmd", output_format = "html_document")
+```
+
+# Set-up
+
+```{r, echo = FALSE}
+library(magrittr)
+dir("chunks", full.names = TRUE) %>% purrr::walk(knitr::read_chunk)
+```
+
+```{r set-options, echo = FALSE}
+```
+
+# Demo
+
+
+
+# Appendix
+
+Dependencies
+
+```{r dependecies, eval=FALSE}
+```

@@ -1,0 +1,5 @@
+remotes::install_github("cran/yaml")
+remotes::install_github("robjhyndman/forecast")
+remotes::install_github("robjhyndman/fpp2-package")
+remotes::install_github("HenrikBengtsson/R.methodsS3@develop")
+remotes::install_github("ggobi/ggally")
